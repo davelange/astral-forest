@@ -1,0 +1,18 @@
+---
+let data = await Astro.glob("../pages/blog/*.md");
+
+let blogPosts = data.map((post) => ({
+  title: post.frontmatter.page_title,
+  url: post.url,
+}));
+---
+
+<ul>
+  {
+    blogPosts.map((post) => (
+      <li>
+        <a href={post.url}>{post.title}</a>
+      </li>
+    ))
+  }
+</ul>
