@@ -1,7 +1,7 @@
 ---
 page_title: About
 body: ''
-layout: "../layouts/Layout.astro"
+layout: "@layouts/Layout.astro"
 
 ---
 This is the astral forest static site.
