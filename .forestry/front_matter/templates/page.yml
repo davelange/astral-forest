@@ -15,4 +15,5 @@ fields:
   description: Astro layout file to use
 pages:
 - src/pages/about.mdx
+- src/pages/blog/how-it-works.mdx
 - src/pages/index.mdx
