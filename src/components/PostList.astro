@@ -1,5 +1,5 @@
 ---
-let data = await Astro.glob("../pages/blog/*.md");
+let data = await Astro.glob("../pages/blog/*.mdx");
 
 let blogPosts = data.map((post) => ({
   title: post.frontmatter.page_title,

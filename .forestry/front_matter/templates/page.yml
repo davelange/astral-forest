@@ -14,5 +14,5 @@ fields:
   label: Layout
   description: Astro layout file to use
 pages:
-- src/pages/about.md
-- src/pages/blog/first-post.md
+- src/pages/about.mdx
+- src/pages/blog/first-post.mdx
